@@ -34,7 +34,8 @@ function Skills() {
     if (loading) return <p>Loading skills...</p>;
 
     return (
-        <section>
+        <section id="skills">
+            {/* Dropdown options from loaded Categories */}
             <select value={category} onChange={(event) => setCategory(event.target.value)}>
                 {categories.map((cat) => (
                     <option key={cat} value={cat}>
