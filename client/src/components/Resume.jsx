@@ -7,6 +7,7 @@ function Resume() {
     const [array, setArray] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
     const fetchAPI = async () => {
         try {
             const response = await axios.get('http://localhost:8080/api/experience');
