@@ -7,7 +7,7 @@ import Layout from './components/Layout.jsx'
 import Projects from './components/Projects.jsx'
 import Resume from './components/Resume.jsx'
 import Skills from './components/Skills.jsx'
-import './index.css'
+import './styles/index.css'
 
 const router = createBrowserRouter([
   {
