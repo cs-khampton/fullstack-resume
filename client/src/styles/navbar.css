@@ -1,5 +1,5 @@
 nav {
-    margin: 1.5em;
+    margin: 1.5em 1.5em .5em 1.5em;
     position: sticky;
     width: 100%;
 }
@@ -10,7 +10,7 @@ nav {
     padding: 0.25em 1em;
 
     /* Set gap between buttons */
-    margin: .5em;
+    margin: .5em .5em 1em .5em;
     /* round the edges */
     border-radius: 8px;
     /* Set text color */

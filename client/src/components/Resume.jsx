@@ -31,10 +31,10 @@ function Resume() {
 
     return (
         <>
-            <section className='body' id="experience">
+            <section id="experience">
                 {array.map((exp) => (
-                    <div className="experience" key={exp.id}>
-                        <h2><strong>{exp.company}</strong></h2>
+                    <div key={exp.id} >
+                        <h2 ><strong>{exp.company}</strong></h2>
                         <p id='job-title'><strong>{exp.jobTitle}</strong></p>
                         <p id='employment-date'><em>{exp.startDate} - {exp.endDate}</em></p>
                         <ul>

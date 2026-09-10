@@ -13,8 +13,8 @@ function Header() {
     const title = pageTitles[location.pathname] || 'Portfolio';
 
     return (
-        <header>
-            <h1>{"< "}{title}{" />"}</h1>
+        <header className='title'>
+            <h1><strong>{"< "}{title}{" />"}</strong></h1>
         </header>
     );
 }

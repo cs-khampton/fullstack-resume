@@ -1,4 +1,11 @@
-.body {
+.body,
+p.body,
+div.body {
     display: block;
-    padding: 0em 2.5em;
+    height: 100%;
+}
+
+.header,
+.title {
+    margin: 1em;
 }
