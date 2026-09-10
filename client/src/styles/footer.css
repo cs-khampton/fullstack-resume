@@ -1,17 +1,21 @@
 footer {
     display: flexbox;
     /* align-content: center; */
-    padding: .5em;
-    width: inherit;
+    /* padding: .5em; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 5em;
     margin: auto;
-    position: sticky;
+    position: fixed;
     background-color: rgb(101, 0, 160, 0.4);
 }
 
 footer p {
     display: flexbox;
     font-size: 25px;
-    padding-bottom: 15px;
+    padding-bottom: .5em;
+    padding-top: .25em;
 }
 
 footer a {
@@ -20,12 +24,10 @@ footer a {
     /* Set button height & width */
     padding: .5em;
     /* Set gap between buttons */
-    margin: .5em;
+    margin: .5em .5em;
     /* round the edges */
     border-radius: 8px;
-    color: rgb(223,
-            168,
-            255);
+    color: rgb(223, 168, 255);
     /* TODO: Change these colors */
     background-color: rgb(101, 0, 160);
     font-size: 20px;
@@ -34,8 +36,6 @@ footer a {
 
 a:hover {
     /* TODO: Change these colors */
-    background-color: rgb(223,
-            168,
-            255);
+    background-color: rgb(223, 168, 255);
     color: rgb(101, 0, 160);
 }

@@ -12,17 +12,15 @@ nav {
     margin: .5em;
     /* round the edges */
     border-radius: 8px;
-    color: rgb(101,
-            0,
-            160);
-    background-color: rgb(223,
-            168,
-            255, 0.9);
+    /* Set text color */
+    color: rgb(223, 168, 255);
+    /* Set background color */
+    background-color: rgb(64, 0, 101);
     font-size: 30px;
     text-decoration: none;
 }
 
 .nav-button:hover {
-    background-color: rgb(64, 0, 101);
-    color: rgb(223, 168, 255);
+    background-color: rgb(223, 168, 255);
+    color: rgb(64, 0, 101);
 }
