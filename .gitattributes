@@ -1,0 +1,4 @@
+*.json filter=git-crypt diff=git-crypt
+
+package.json !filter !diff
+package-lock.json !filter !diff
