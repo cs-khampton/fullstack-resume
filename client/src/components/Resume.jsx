@@ -31,7 +31,7 @@ function Resume() {
 
     return (
         <>
-            <section id="experience">
+            <section className='body' id="experience">
                 {array.map((exp) => (
                     <div className="experience" key={exp.id}>
                         <h2><strong>{exp.company}</strong></h2>

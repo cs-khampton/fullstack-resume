@@ -3,25 +3,42 @@
         {
             "id": "1",
             "title": "Shortest Flight Path",
-            "description": "Developed in an Agile team of four using Java and Spring Boot for CS314. This web application allows users to search, select/remove, and optimize airport paths using the traveling salesperson algorithm to optimize the flight path.",
-            "role": "Software Engineer"
+            "description": [
+                "Built a RESTful API in Spring Boot that enables users to construct flight paths between global airports within an Agile team of five.",
+                "Implemented a Traveling Salesperson Problem (TSP) algorithm with 2-opt iterative refinement, allowing users to progressively optimize route efficiency on repeated requests.",
+                "Gathered and analyzed stakeholder requirements, translating them into actionable development tasks.",
+                "Served as Scrum Master for one sprint cycle, facilitating Agile practices including standups, sprint planning, and retrospectives."
+            ],
+            "role": "Backend Software Engineer"
         },
         {
             "id": "2",
             "title": "Employee Management",
-            "description": "Developed in an Agile team of six using Java and React for CS414. This web application allows users to search, add, modify, and remove airport employees. This application's main focus was on software testing and used tools such as PMD/CPD, Randoop, SpotBugs, ISP/BCC tables, and EvoSuite",
+            "description": [
+                "In an Agile team of 6, built a full-stack employee management application with a React frontend and Java backend, using Maven for the backend build/dependency managment and Node.js/npm (via NVM) for frontend tooling.",
+                "Applied Test-Driven Development (TDD) practices using Input Space Partitioning (ISP) and Base Choice Coverage (BCC) techinques to design test cases.",
+                "Utilized Randoop and EvoSuite for automated test generation, and SpotBugs for static code analysis, as part of a team focus on strengthening testing tools and practices"
+            ],
             "role": "Software Engineer"
         },
         {
             "id": "3",
             "title": "Angular Real Estate",
-            "description": "Built as an individual project using React and the Angular framework in order to build base skills. This web application allows users to view housing listing details from a JSON file and allows for querying based on location and/or house price.",
-            "role": "Software Engineer"
+            "description": [
+                "Built a real estate listing application individually to learn Angular, following Angular's official \"First App\" tutorial.",
+                "Implemented Angular Components and routing to display home listing pages and individual property detail views."
+            ],
+            "role": "Full-Stack Software Engineer"
         },
         {
             "id": "4",
             "title": "MiniJava to MIPS Compiler",
-            "description": "Individually developed for CS453 to understand the inner-workings of compilers. This project consisted of four parts; lexing, parsing, semantic analysis, and code generation. When put together, these parts create a full MiniJava to MIPS compiler.",
+            "description": [
+                "Built a 4-stage compiler, translating MiniJava source code into MIPS assembly",
+                "Implemented a lexical analyzer/scanner to tokenize MiniJava source code.",
+                "Performed semantic analysis and type checking to validate program correctness.",
+                "Generated MIPS assembly code from the validated AST."
+            ],
             "role": "Software Engineer"
         }
     ]

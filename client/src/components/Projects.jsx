@@ -28,7 +28,7 @@ function Projects() {
 
     return (
         <>
-            <section id="projects">
+            <section className='body' id="projects">
                 {array.map((project) => (
                     <div className="project" id={project.id}>
                         <h2><strong>{project.title}</strong></h2>
