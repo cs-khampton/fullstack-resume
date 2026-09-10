@@ -31,7 +31,7 @@ function Projects() {
             <section id="projects">
                 {array.map((project) => (
                     <div className="project" id={project.id}>
-                        <h2>{project.title}</h2>
+                        <h2><strong>{project.title}</strong></h2>
                         <h3>Role: {project.role}</h3>
                         <p>{project.description}</p>
                     </div>
