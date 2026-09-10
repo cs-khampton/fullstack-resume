@@ -1,88 +1,256 @@
 {
     "skills": [
         {
-            "id": "1",
-            "category": "Frontend",
-            "name": "React",
-            "level": "Intermediate",
-            "yearsOfExperience": "3"
+            "id": 1,
+            "category": "Languages",
+            "name": "Python",
+            "yearsOfExperience": 4
         },
         {
-            "id": "2",
-            "category": "Frontend",
-            "name": "Angular",
-            "level": "Beginner",
-            "yearsOfExperience": "<1"
-        },
-        {
-            "id": "3",
-            "category": "Backend",
-            "name": "Node.js",
-            "level": "Intermediate",
-            "yearsOfExperience": "2"
-        },
-        {
-            "id": "4",
-            "category": "Database",
-            "name": "PostgresSQL",
-            "level": "Intermediate",
-            "yearsOfExperience": "<1"
-        },
-        {
-            "id": "5",
-            "category": "Backend",
+            "id": 2,
+            "category": "Languages",
             "name": "Java",
-            "level": "Intermediate",
-            "yearsOfExperience": "6"
+            "yearsOfExperience": 7
         },
         {
-            "id": "6",
-            "category": "DevOps",
-            "name": "Git/GitHub",
-            "level": "Intermediate",
-            "yearsOfExperience": "6"
-        },
-        {
-            "id": "7",
-            "category": "DevOps",
-            "name": "Bash",
-            "level": "Intermediate",
-            "yearsOfExperience": "6"
-        },
-        {
-            "id": "8",
-            "category": "DevOps",
-            "name": "Linux",
-            "level": "Intermediate",
-            "yearsOfExperience": "6"
-        },
-        {
-            "id": "9",
-            "category": "DevOps",
-            "name": "Windows",
-            "level": "Advanced",
-            "yearsOfExperience": "10+"
-        },
-        {
-            "id": "10",
-            "category": "Backend",
-            "name": "C++",
-            "level": "Intermediate",
-            "yearsOfExperience": "1"
-        },
-        {
-            "id": "11",
-            "category": "Backend",
+            "id": 3,
+            "category": "Languages",
             "name": "C",
-            "level": "Beginner",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 4,
+            "category": "Languages",
+            "name": "C++",
+            "yearsOfExperience": 2
+        },
+        {
+            "id": 5,
+            "category": "Languages",
+            "name": "C#",
+            "yearsOfExperience": 4
+        },
+        {
+            "id": 6,
+            "category": "Languages",
+            "name": "PHP",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 7,
+            "category": "Languages",
+            "name": "TypeScript",
             "yearsOfExperience": "<1"
         },
         {
-            "id": "12",
-            "category": "Backend",
-            "name": "C#",
-            "level": "Intermediate",
-            "yearsOfExperience": "2"
+            "id": 8,
+            "category": "Languages",
+            "name": "SQL",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 9,
+            "category": "Languages",
+            "name": "HTML/CSS",
+            "yearsOfExperience": 4
+        },
+        {
+            "id": 10,
+            "category": "Languages",
+            "name": "Bash",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 11,
+            "category": "Tools & APIs",
+            "name": "React",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 12,
+            "category": "Tools & APIs",
+            "name": "Spring Boot",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 13,
+            "category": "Tools & APIs",
+            "name": "Node.js",
+            "yearsOfExperience": 2
+        },
+        {
+            "id": 14,
+            "category": "Tools & APIs",
+            "name": "Express.js",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 15,
+            "category": "Tools & APIs",
+            "name": "Flask",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 16,
+            "category": "Tools & APIs",
+            "name": "Git/GitHub",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 17,
+            "category": "Tools & APIs",
+            "name": "Maven",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 18,
+            "category": "Tools & APIs",
+            "name": "Postman",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 19,
+            "category": "Tools & APIs",
+            "name": "SSH",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 20,
+            "category": "Tools & APIs",
+            "name": "vim",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 21,
+            "category": "Tools & APIs",
+            "name": "VSCode",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 22,
+            "category": "Tools & APIs",
+            "name": "Windows",
+            "yearsOfExperience": 10
+        },
+        {
+            "id": 23,
+            "category": "Tools & APIs",
+            "name": "WinSCP",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 24,
+            "category": "Tools & APIs",
+            "name": "Linux",
+            "yearsOfExperience": 7
+        },
+        {
+            "id": 25,
+            "category": "Tools & APIs",
+            "name": "NumPy",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 26,
+            "category": "Tools & APIs",
+            "name": "Matplotlib",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 27,
+            "category": "Tools & APIs",
+            "name": "Pandas",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 28,
+            "category": "Tools & APIs",
+            "name": "SciPy",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 29,
+            "category": "Tools & APIs",
+            "name": "pip",
+            "yearsOfExperience": 4
+        },
+        {
+            "id": 30,
+            "category": "Tools & APIs",
+            "name": "Miniconda",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 31,
+            "category": "Tools & APIs",
+            "name": "Unity",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 32,
+            "category": "Database",
+            "name": "MariaDB",
+            "yearsOfExperience": 2
+        },
+        {
+            "id": 33,
+            "category": "Database",
+            "name": "Microsoft Access",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 34,
+            "category": "Database",
+            "name": "MongoDB",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 35,
+            "category": "Database",
+            "name": "MySQL",
+            "yearsOfExperience": 2
+        },
+        {
+            "id": 36,
+            "category": "Database",
+            "name": "PostgreSQL",
+            "yearsOfExperience": 1
+        },
+        {
+            "id": 37,
+            "category": "Testing",
+            "name": "JaCoCo",
+            "yearsOfExperience": 3
+        },
+        {
+            "id": 38,
+            "category": "Testing",
+            "name": "SpotBugs",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 39,
+            "category": "Testing",
+            "name": "EvoSuite",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 40,
+            "category": "Testing",
+            "name": "Randoop",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 41,
+            "category": "Testing",
+            "name": "PMD/CPD",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": 42,
+            "category": "Tools & APIs",
+            "name": "Angular",
+            "yearsOfExperience": "<1"
         }
     ]
 }
