@@ -46,7 +46,7 @@ function Resume() {
                 ))}
             </section>
             <div id="resume-PDF-download">
-                <a href={resume} download="KaiHampton_Resume.pdf">Download PDF Version</a>
+                <a href={resume} style={{ textDecoration: 'none' }} download="KaiHampton_Resume.pdf">Download PDF Version</a>
             </div>
         </>
     )

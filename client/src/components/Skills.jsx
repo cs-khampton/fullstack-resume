@@ -11,7 +11,7 @@ function Skills() {
         const fetchSkills = async () => {
             try {
                 const response = await axios.get('http://localhost:8080/api/skills');
-                setAllSkills(response.data);
+                setAllSkills([...response.data].sort((a, b) => a.name.localeCompare(b.name)));
             } catch (err) {
                 console.error(err);
                 setError(err);
@@ -34,7 +34,7 @@ function Skills() {
     if (loading) return <p>Loading skills...</p>;
 
     return (
-        <section id="skills">
+        <section id="skills-filter">
             {/* Dropdown options from loaded Categories */}
             <select value={category} onChange={(event) => setCategory(event.target.value)}>
                 {categories.map((cat) => (
@@ -44,9 +44,9 @@ function Skills() {
                 ))}
             </select>
 
-            <div className="skills-list">
+            <div>
                 {filteredSkills.map((skill) => (
-                    <p>{skill.name} — ({skill.yearsOfExperience} years)  {skill.level}</p>
+                    <p key={skill.id}>{skill.name}&nbsp; - &nbsp;{skill.yearsOfExperience} years</p>
                 ))}
             </div>
         </section>
