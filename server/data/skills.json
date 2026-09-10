@@ -62,6 +62,27 @@
             "name": "Windows",
             "level": "Advanced",
             "yearsOfExperience": "10+"
+        },
+        {
+            "id": "10",
+            "category": "Backend",
+            "name": "C++",
+            "level": "Intermediate",
+            "yearsOfExperience": "1"
+        },
+        {
+            "id": "11",
+            "category": "Backend",
+            "name": "C",
+            "level": "Beginner",
+            "yearsOfExperience": "<1"
+        },
+        {
+            "id": "12",
+            "category": "Backend",
+            "name": "C#",
+            "level": "Intermediate",
+            "yearsOfExperience": "2"
         }
     ]
 }

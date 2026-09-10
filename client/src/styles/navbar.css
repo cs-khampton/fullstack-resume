@@ -1,0 +1,26 @@
+nav {
+    margin: 2em;
+    position: sticky;
+}
+
+.nav-button {
+    display: flexbox;
+    /* Set button height & width */
+    padding: 0.25em 1em;
+
+    /* Set gap between buttons */
+    margin: .5em;
+    /* round the edges */
+    border-radius: 8px;
+    /* Set text color */
+    color: rgb(223, 168, 255);
+    /* Set background color */
+    background-color: rgb(64, 0, 101);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: rgb(223, 168, 255);
+    color: rgb(64, 0, 101);
+}
