@@ -1,0 +1,39 @@
+footer {
+    display: flexbox;
+    padding: .5em;
+    margin: auto;
+    position: sticky;
+    background-color: rgb(101, 0, 160, 0.4);
+}
+
+footer p {
+    display: flexbox;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+footer a {
+    display: flexbox;
+
+    /* Set button height & width */
+    padding: .5em;
+    /* Set gap between buttons */
+    margin: .5em;
+    /* round the edges */
+    border-radius: 8px;
+    color: rgb(223,
+            168,
+            255);
+    /* TODO: Change these colors */
+    background-color: rgb(101, 0, 160);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    /* TODO: Change these colors */
+    background-color: rgb(223,
+            168,
+            255);
+    color: rgb(101, 0, 160);
+}

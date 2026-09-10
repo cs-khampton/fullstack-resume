@@ -1,3 +1,8 @@
+nav {
+    margin: 2em;
+    position: sticky;
+}
+
 .nav-button {
     display: flexbox;
     /* Set button height & width */
@@ -7,12 +12,17 @@
     margin: .5em;
     /* round the edges */
     border-radius: 8px;
-
-    background-color: rgb(101, 0, 160);
+    color: rgb(101,
+            0,
+            160);
+    background-color: rgb(223,
+            168,
+            255, 0.9);
     font-size: 30px;
     text-decoration: none;
 }
 
 .nav-button:hover {
     background-color: rgb(64, 0, 101);
+    color: rgb(223, 168, 255);
 }

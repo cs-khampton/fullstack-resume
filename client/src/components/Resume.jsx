@@ -34,9 +34,9 @@ function Resume() {
             <section id="experience">
                 {array.map((exp) => (
                     <div className="experience" key={exp.id}>
-                        <h2>{exp.company}</h2>
-                        <p id='job-title'>{exp.jobTitle}</p>
-                        <p id='employment-date'>{exp.startDate} - {exp.endDate}</p>
+                        <h2><strong>{exp.company}</strong></h2>
+                        <p id='job-title'><strong>{exp.jobTitle}</strong></p>
+                        <p id='employment-date'><em>{exp.startDate} - {exp.endDate}</em></p>
                         <ul>
                             {exp.tasks.map((task, index) => (
                                 <li key={index}>{task}</li>
