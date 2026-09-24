@@ -5,6 +5,11 @@ function App() {
     <>
       <h2 className='header'><strong>Hello & Welcome!</strong></h2>
       <div className="body">
+
+        {/* Add an image of Kai! */}
+        <img src=""></img>
+
+        {/* Change intro? */}
         <p>
           My name is Kai - I grew up in Lander, Wyoming where my curiousity about software and technology began.
           My father was a web designer who gave me the opportunity to start learning HTML/CSS around the age of 8.

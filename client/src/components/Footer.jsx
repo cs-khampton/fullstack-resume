@@ -1,6 +1,7 @@
 import '../styles/footer.css';
 
 function Footer() {
+    // XXX: Do I move this into the contact page?
     return (
         <footer>
             <p>Kaili Hampton</p>
