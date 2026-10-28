@@ -7,7 +7,7 @@ function App() {
       <div className="body">
 
         {/* Add an image of Kai! */}
-        <img src=""></img>
+        <img src="./src/assets/KH.jpeg" height={"200px"}></img>
 
         {/* Change intro? */}
         <p>
