@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import resume from '../assets/KH_Resume_8-26.pdf';
+import resume from '../assets/SE_Resume10-9.pdf';
 
 function Resume() {
 
@@ -46,7 +46,7 @@ function Resume() {
                 ))}
             </section>
             <div id="resume-PDF-download">
-                <a href={resume} style={{ textDecoration: 'none' }} download="KaiHampton_Resume.pdf">Download PDF Version</a>
+                <a href={resume} style={{ textDecoration: 'none' }} download="[SE_Resume10-9.pdf">Download PDF Version</a>
             </div>
         </>
     )
