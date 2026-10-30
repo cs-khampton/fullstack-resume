@@ -4,6 +4,8 @@ nav {
     width: 100%;
 }
 
+/* TODO: Modify button layout padding & margins */
+
 .nav-button {
     display: inline-flex;
     /* Set button height & width */
